@@ -1,0 +1,9 @@
+{
+  "go.useLanguageServer": true,
+  "editor.tabSize": 4,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust",
+    "editor.formatOnSave": true
+  }
+}
