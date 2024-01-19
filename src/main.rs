@@ -4,7 +4,11 @@
 // mod generics;
 // mod lifetime;
 // mod structs;
-mod enums;
+// mod enums;
+// mod traits;
+mod error_handling;
+mod unit_test;
+extern crate lib_demo;
 
 fn main() {
     // println!("Hello, world!");
@@ -14,8 +18,11 @@ fn main() {
     // generics::run();
     // lifetime::run();
     // structs::run();
-    enums::run();
+    // enums::run();
+    // traits::run();
+    error_handling::run();
     // vars::sub_a::func_a();
     // vars::sub_b::func_b();
+    lib_demo::print_random_number()
 }
 
